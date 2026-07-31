@@ -1,0 +1,18 @@
+{
+  "type": "vanilla_aspects:scorching_touch",
+  "conditions": [
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "enchantments": [
+          {
+            "enchantment": "vanilla_aspects:scorching_touch",
+            "levels": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

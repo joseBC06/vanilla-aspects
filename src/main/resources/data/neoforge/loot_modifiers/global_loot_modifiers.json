@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "entries": [
+    "vanilla_aspects:scorching_touch",
+    "vanilla_aspects:wither_chest",
+    "vanilla_aspects:venom_chest"
+  ]
+}

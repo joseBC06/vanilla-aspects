@@ -1,0 +1,29 @@
+modLoader="javafml" 
+loaderVersion="${loader_version_range}" 
+license="All rights reserved"
+
+[[mods]]
+# Aquí está la corrección principal
+modId="vanilla_aspects" 
+version="1.0.0" 
+displayName="Vanilla Aspects"
+logoFile="logo.png" 
+authors="usearchbtw"
+description='''
+A Vanilla+ expansion introducing balanced combat and utility enchantments.
+'''
+
+# Cuidado aquí también, hay que quitar la variable de las dependencias
+[[dependencies.vanilla_aspects]] 
+    modId="neoforge"
+    type="required" 
+    versionRange="[${neo_version},)" 
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.vanilla_aspects]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
