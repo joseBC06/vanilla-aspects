@@ -1,26 +1,34 @@
 #  Vanilla Aspects
 
-A Vanilla+ expansion for Minecraft (NeoForge) introducing balanced combat and utility enchantments.
+An expansion that respects the essence of the original game, designed to enrich combat mechanics and resource gathering through mathematically balanced enchantments.
 
-##  Features
+---
 
-*   **Scorching Touch:** Automatically smelts mined ores. Incompatible with Fortune to ensure a balanced resource gathering experience.
-*   **Heavy Blade:** Trades knockback for raw combo potential, keeping enemies close for aggressive melee combat.
-*   **Lifesteal:** Rewards sustained combat by healing the player for a percentage of the damage dealt.
-*   **Wither Aspect & Venomous Aspect:** Loot-exclusive enchantments found in Nether Fortresses and Abandoned Mineshafts, applying lethal and non-lethal damage-over-time effects.
+##  Main Features
 
-## 🛠️ Technical Details
+###  Utility & Mining
+* **Scorching Touch:** Automatically smelts mined ores (e.g., raw iron drops directly as an iron ingot). 
+  * *Balance:* Strictly incompatible with the Fortune enchantment. The player must choose between the convenience of saving coal or the advantage of multiplying resources.
 
-*   **Mod Loader:** NeoForge (1.20.4)
-*   **Configuration:** Data-driven design using JSON for spawn rates and chest loot tables.
-*   **Compatibility:** Built using native Minecraft combat events for maximum compatibility with other mods.
+### 🗡️ Melee Combat
+* **Heavy Blade:** Completely removes the knockback from your attacks. 
+  * *Mechanics:* Trades the safety of pushing enemies away for a massive potential to chain fast hits and maintain an aggressive close-quarters playstyle.
+* **Lifesteal:** Rewards continuous combat. The player recovers 20% of the inflicted damage as health on every successful hit. 
 
-##  Installation
+### ☠️ Exclusive Loot (Treasures)
+These enchantments cannot be obtained at the Enchanting Table. They force the player to explore the world:
+* **Wither Aspect:** Applies prolonged lethal damage. Lasts exactly 2 seconds at Level 1, and 4 seconds at Level 2. 
+  * *Acquisition:* Has a 15% chance to appear exclusively in Nether Fortress chests.
+* **Venomous Aspect:** Applies poison to the target (non-lethal, but rapidly reduces health).
+  * *Acquisition:* Has a 15% chance to appear exclusively in Abandoned Mineshaft chests.
 
-1. Install [NeoForge 1.20.4](https://neoforged.net/).
-2. Download the latest `vanillaaspects.jar` from [Modrinth / CurseForge].
-3. Drop the file into your `.minecraft/mods` folder.
+---
 
-##  Contributing
+## 🛠️ Technical Details for Modpacks
+* **Data-Driven:** Chest spawn rates and loot tables are managed via JSON files, allowing modpack creators to alter probabilities without needing to modify the source code.
+* **Compatibility:** Programmed using native game engine events, ensuring maximum compatibility with other weapon or armor modifications.
 
-Issues and pull requests are welcome! If you find a bug or have a balancing suggestion, please open an issue in the tracker.
+---
+
+##  Community & Open Source
+This project is open-source. If you find any bugs, have mathematical ideas to tweak the balance of the enchantments, or simply want to review the code structure, let me know.
