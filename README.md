@@ -1,25 +1,26 @@
+#  Vanilla Aspects
 
-Installation information
-=======
+A Vanilla+ expansion for Minecraft (NeoForge) introducing balanced combat and utility enchantments.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+##  Features
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+*   **Scorching Touch:** Automatically smelts mined ores. Incompatible with Fortune to ensure a balanced resource gathering experience.
+*   **Heavy Blade:** Trades knockback for raw combo potential, keeping enemies close for aggressive melee combat.
+*   **Lifesteal:** Rewards sustained combat by healing the player for a percentage of the damage dealt.
+*   **Wither Aspect & Venomous Aspect:** Loot-exclusive enchantments found in Nether Fortresses and Abandoned Mineshafts, applying lethal and non-lethal damage-over-time effects.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+## 🛠️ Technical Details
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+*   **Mod Loader:** NeoForge (1.20.4)
+*   **Configuration:** Data-driven design using JSON for spawn rates and chest loot tables.
+*   **Compatibility:** Built using native Minecraft combat events for maximum compatibility with other mods.
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+##  Installation
+
+1. Install [NeoForge 1.20.4](https://neoforged.net/).
+2. Download the latest `vanillaaspects.jar` from [Modrinth / CurseForge].
+3. Drop the file into your `.minecraft/mods` folder.
+
+##  Contributing
+
+Issues and pull requests are welcome! If you find a bug or have a balancing suggestion, please open an issue in the tracker.
