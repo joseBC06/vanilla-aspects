@@ -1,8 +1,8 @@
 {
   "replace": false,
   "entries": [
-    "vanilla_aspects:scorching_touch",
-    "vanilla_aspects:wither_chest",
-    "vanilla_aspects:venom_chest"
+    "essential_aspects:scorching_touch",
+    "essential_aspects:wither_chest",
+    "essential_aspects:venom_chest"
   ]
 }

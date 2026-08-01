@@ -1,15 +1,15 @@
-package dev.usearchbtw.vanillaaspects;
+package dev.usearchbtw.essentialaspects;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 
-@Mod(VanillaAspects.MODID)
-public class VanillaAspects {
+@Mod(EssentialAspects.MODID)
+public class EssentialAspects {
 
-    public static final String MODID = "vanilla_aspects";
+    public static final String MODID = "essential_aspects";
 
-    public VanillaAspects(IEventBus modEventBus) {
+    public EssentialAspects(IEventBus modEventBus) {
         
         // Conectamos nuestro registro de encantamientos al bus del juego
         ModEnchantments.ENCHANTMENTS.register(modEventBus);

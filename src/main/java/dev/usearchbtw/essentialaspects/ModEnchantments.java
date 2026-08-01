@@ -1,4 +1,4 @@
-package dev.usearchbtw.vanillaaspects;
+package dev.usearchbtw.essentialaspects;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.enchantment.Enchantment;
@@ -8,7 +8,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 public class ModEnchantments {
     
     public static final DeferredRegister<Enchantment> ENCHANTMENTS = 
-            DeferredRegister.create(Registries.ENCHANTMENT, VanillaAspects.MODID);
+            DeferredRegister.create(Registries.ENCHANTMENT, EssentialAspects.MODID);
 
     public static final DeferredHolder<Enchantment, VenomousAspectEnchantment> VENOMOUS_ASPECT = 
             ENCHANTMENTS.register("venomous_aspect", () -> new VenomousAspectEnchantment());

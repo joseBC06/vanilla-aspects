@@ -1,4 +1,4 @@
-package dev.usearchbtw.vanillaaspects;
+package dev.usearchbtw.essentialaspects;
 
 import com.mojang.serialization.Codec;
 import net.neoforged.neoforge.common.loot.IGlobalLootModifier;
@@ -10,7 +10,7 @@ public class ModLootModifiers {
     
     // En la 1.20.4 el registro exige Codec, no MapCodec
     public static final DeferredRegister<Codec<? extends IGlobalLootModifier>> LOOT_MODIFIER_SERIALIZERS =
-            DeferredRegister.create(NeoForgeRegistries.Keys.GLOBAL_LOOT_MODIFIER_SERIALIZERS, VanillaAspects.MODID);
+            DeferredRegister.create(NeoForgeRegistries.Keys.GLOBAL_LOOT_MODIFIER_SERIALIZERS, EssentialAspects.MODID);
 
     public static final DeferredHolder<Codec<? extends IGlobalLootModifier>, Codec<ScorchingTouchModifier>> SCORCHING_TOUCH =
             LOOT_MODIFIER_SERIALIZERS.register("scorching_touch", () -> ScorchingTouchModifier.CODEC);

@@ -1,19 +1,19 @@
-package dev.usearchbtw.vanillaaspects;
+package dev.usearchbtw.essentialaspects;
 
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentCategory;
 import net.minecraft.world.item.enchantment.Enchantments;
 
-public class VenomousAspectEnchantment extends Enchantment {
+public class ScorchingTouchEnchantment extends Enchantment {
 
-    public VenomousAspectEnchantment() {
-        super(Enchantment.Rarity.RARE, EnchantmentCategory.WEAPON, new EquipmentSlot[]{EquipmentSlot.MAINHAND});
+    public ScorchingTouchEnchantment() {
+        super(Enchantment.Rarity.RARE, EnchantmentCategory.DIGGER, new EquipmentSlot[]{EquipmentSlot.MAINHAND});
     }
 
     @Override
     public int getMinCost(int level) {
-        return 10 + 20 * (level - 1);
+        return 15;
     }
 
     @Override
@@ -23,15 +23,12 @@ public class VenomousAspectEnchantment extends Enchantment {
 
     @Override
     public int getMaxLevel() {
-        return 2;
+        return 1; // Solo tiene 1 nivel
     }
 
     @Override
     protected boolean checkCompatibility(Enchantment other) {
-        // Incompatible con Fuego, Wither y Lifesteal
-        if (other == Enchantments.FIRE_ASPECT || 
-            other instanceof WitherAspectEnchantment || 
-            other instanceof LifestealEnchantment) {
+        if (other == Enchantments.SILK_TOUCH || other == Enchantments.BLOCK_FORTUNE) {
             return false;
         }
         return super.checkCompatibility(other);

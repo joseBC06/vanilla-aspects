@@ -1,13 +1,13 @@
-package dev.usearchbtw.vanillaaspects;
+package dev.usearchbtw.essentialaspects;
 
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentCategory;
 import net.minecraft.world.item.enchantment.Enchantments;
 
-public class WitherAspectEnchantment extends Enchantment {
+public class LifestealEnchantment extends Enchantment {
 
-    public WitherAspectEnchantment() {
+    public LifestealEnchantment() {
         super(Enchantment.Rarity.RARE, EnchantmentCategory.WEAPON, new EquipmentSlot[]{EquipmentSlot.MAINHAND});
     }
 
@@ -30,7 +30,7 @@ public class WitherAspectEnchantment extends Enchantment {
     protected boolean checkCompatibility(Enchantment other) {
         if (other == Enchantments.FIRE_ASPECT || 
             other instanceof VenomousAspectEnchantment || 
-            other instanceof LifestealEnchantment) {
+            other instanceof WitherAspectEnchantment) {
             return false;
         }
         return super.checkCompatibility(other);
