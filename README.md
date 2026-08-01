@@ -1,4 +1,4 @@
-#  Vanilla Aspects
+#  Essential Aspects
 
 An expansion that respects the essence of the original game, designed to enrich combat mechanics and resource gathering through mathematically balanced enchantments.
 
@@ -32,3 +32,7 @@ These enchantments cannot be obtained at the Enchanting Table. They force the pl
 
 ##  Community & Open Source
 This project is open-source. If you find any bugs, have mathematical ideas to tweak the balance of the enchantments, or simply want to review the code structure, let me know.
+
+##  ☕ Support the Project
+
+If you enjoy Essential Aspects and want to support its development, you can do so here: -Bitcoin (BTC): `bc1q8jj3y3nmr7d8pww86gr4y36xxg0vstgkjctew7`
