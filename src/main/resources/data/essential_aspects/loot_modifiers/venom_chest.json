@@ -1,14 +1,14 @@
 {
-  "type": "vanilla_aspects:chest_loot",
+  "type": "essential_aspects:chest_loot",
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",
-      "loot_table_id": "minecraft:chests/nether_bridge"
+      "loot_table_id": "minecraft:chests/abandoned_mineshaft"
     },
     {
       "condition": "minecraft:random_chance",
       "chance": 0.15
     }
   ],
-  "enchantment": "vanilla_aspects:wither_aspect"
+  "enchantment": "essential_aspects:venomous_aspect"
 }

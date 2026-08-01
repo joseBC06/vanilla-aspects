@@ -1,4 +1,4 @@
-package dev.usearchbtw.vanillaaspects;
+package dev.usearchbtw.essentialaspects;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -11,7 +11,7 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.event.entity.living.LivingDamageEvent;
 import net.neoforged.neoforge.event.entity.living.LivingKnockBackEvent;
 
-@Mod.EventBusSubscriber(modid = VanillaAspects.MODID)
+@Mod.EventBusSubscriber(modid = EssentialAspects.MODID)
 public class CombatEventHandler {
 
     @SubscribeEvent

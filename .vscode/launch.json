@@ -6,21 +6,21 @@
       "request": "launch",
       "name": "Client",
       "presentation": {
-        "group": "Mod Development - vanillaaspects-template-1.20.4",
+        "group": "Mod Development - essentialaspects-template-1.20.4",
         "order": 0
       },
-      "projectName": "vanillaaspects-template-1.20.4",
+      "projectName": "essentialaspects-template-1.20.4",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@/home/encrypted/Projects/vanillaaspects-template-1.20.4/build/moddev/clientRunProgramArgs.txt"
+        "@/home/encrypted/Projects/essentialaspects-template-1.20.4/build/moddev/clientRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@/home/encrypted/Projects/vanillaaspects-template-1.20.4/build/moddev/clientRunVmArgs.txt",
-        "-Dfml.modFolders\u003dvanillaaspects%%/home/encrypted/Projects/vanillaaspects-template-1.20.4/bin/main"
+        "@/home/encrypted/Projects/essentialaspects-template-1.20.4/build/moddev/clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dessentialaspects%%/home/encrypted/Projects/essentialaspects-template-1.20.4/bin/main"
       ],
       "cwd": "${workspaceFolder}/run",
       "env": {
-        "MOD_CLASSES": "vanillaaspects%%/home/encrypted/Projects/vanillaaspects-template-1.20.4/bin/main"
+        "MOD_CLASSES": "essentialaspects%%/home/encrypted/Projects/essentialaspects-template-1.20.4/bin/main"
       },
       "console": "internalConsole",
       "shortenCommandLine": "none"
@@ -30,21 +30,21 @@
       "request": "launch",
       "name": "Data",
       "presentation": {
-        "group": "Mod Development - vanillaaspects-template-1.20.4",
+        "group": "Mod Development - essentialaspects-template-1.20.4",
         "order": 1
       },
-      "projectName": "vanillaaspects-template-1.20.4",
+      "projectName": "essentialaspects-template-1.20.4",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@/home/encrypted/Projects/vanillaaspects-template-1.20.4/build/moddev/dataRunProgramArgs.txt"
+        "@/home/encrypted/Projects/essentialaspects-template-1.20.4/build/moddev/dataRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@/home/encrypted/Projects/vanillaaspects-template-1.20.4/build/moddev/dataRunVmArgs.txt",
-        "-Dfml.modFolders\u003dvanillaaspects%%/home/encrypted/Projects/vanillaaspects-template-1.20.4/bin/main"
+        "@/home/encrypted/Projects/essentialaspects-template-1.20.4/build/moddev/dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dessentialaspects%%/home/encrypted/Projects/essentialaspects-template-1.20.4/bin/main"
       ],
       "cwd": "${workspaceFolder}/run",
       "env": {
-        "MOD_CLASSES": "vanillaaspects%%/home/encrypted/Projects/vanillaaspects-template-1.20.4/bin/main"
+        "MOD_CLASSES": "essentialaspects%%/home/encrypted/Projects/essentialaspects-template-1.20.4/bin/main"
       },
       "console": "internalConsole",
       "shortenCommandLine": "none"
@@ -54,21 +54,21 @@
       "request": "launch",
       "name": "GameTestServer",
       "presentation": {
-        "group": "Mod Development - vanillaaspects-template-1.20.4",
+        "group": "Mod Development - essentialaspects-template-1.20.4",
         "order": 2
       },
-      "projectName": "vanillaaspects-template-1.20.4",
+      "projectName": "essentialaspects-template-1.20.4",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@/home/encrypted/Projects/vanillaaspects-template-1.20.4/build/moddev/gameTestServerRunProgramArgs.txt"
+        "@/home/encrypted/Projects/essentialaspects-template-1.20.4/build/moddev/gameTestServerRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@/home/encrypted/Projects/vanillaaspects-template-1.20.4/build/moddev/gameTestServerRunVmArgs.txt",
-        "-Dfml.modFolders\u003dvanillaaspects%%/home/encrypted/Projects/vanillaaspects-template-1.20.4/bin/main"
+        "@/home/encrypted/Projects/essentialaspects-template-1.20.4/build/moddev/gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dessentialaspects%%/home/encrypted/Projects/essentialaspects-template-1.20.4/bin/main"
       ],
       "cwd": "${workspaceFolder}/run",
       "env": {
-        "MOD_CLASSES": "vanillaaspects%%/home/encrypted/Projects/vanillaaspects-template-1.20.4/bin/main"
+        "MOD_CLASSES": "essentialaspects%%/home/encrypted/Projects/essentialaspects-template-1.20.4/bin/main"
       },
       "console": "internalConsole",
       "shortenCommandLine": "none"
@@ -78,21 +78,21 @@
       "request": "launch",
       "name": "Server",
       "presentation": {
-        "group": "Mod Development - vanillaaspects-template-1.20.4",
+        "group": "Mod Development - essentialaspects-template-1.20.4",
         "order": 3
       },
-      "projectName": "vanillaaspects-template-1.20.4",
+      "projectName": "essentialaspects-template-1.20.4",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@/home/encrypted/Projects/vanillaaspects-template-1.20.4/build/moddev/serverRunProgramArgs.txt"
+        "@/home/encrypted/Projects/essentialaspects-template-1.20.4/build/moddev/serverRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@/home/encrypted/Projects/vanillaaspects-template-1.20.4/build/moddev/serverRunVmArgs.txt",
-        "-Dfml.modFolders\u003dvanillaaspects%%/home/encrypted/Projects/vanillaaspects-template-1.20.4/bin/main"
+        "@/home/encrypted/Projects/essentialaspects-template-1.20.4/build/moddev/serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dessentialaspects%%/home/encrypted/Projects/essentialaspects-template-1.20.4/bin/main"
       ],
       "cwd": "${workspaceFolder}/run",
       "env": {
-        "MOD_CLASSES": "vanillaaspects%%/home/encrypted/Projects/vanillaaspects-template-1.20.4/bin/main"
+        "MOD_CLASSES": "essentialaspects%%/home/encrypted/Projects/essentialaspects-template-1.20.4/bin/main"
       },
       "console": "internalConsole",
       "shortenCommandLine": "none"
