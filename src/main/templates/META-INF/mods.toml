@@ -3,7 +3,6 @@ loaderVersion="${loader_version_range}"
 license="MIT License"
 
 [[mods]]
-# Aquí está la corrección principal
 modId="essential_aspects" 
 version="1.0.0" 
 displayName="Essential Aspects"
@@ -13,7 +12,6 @@ description='''
 A Vanilla+ expansion introducing balanced combat and utility enchantments.
 '''
 
-# Cuidado aquí también, hay que quitar la variable de las dependencias
 [[dependencies.essential_aspects]] 
     modId="neoforge"
     type="required" 
