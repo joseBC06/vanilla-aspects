@@ -1,5 +1,9 @@
+.gradle/
 build/
 run/
-.gradle/
+out/
+bin/
 .vscode/
+.eclipse/
 *.log
+*.jar
