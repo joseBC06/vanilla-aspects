@@ -1,29 +1,40 @@
+#  Essential Aspects
 
-Installation information
-=======
+An expansion that respects the essence of the original game, designed to enrich combat mechanics and resource gathering through mathematically balanced enchantments.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+---
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+##  Main Features
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+###  Utility & Mining
+* **Scorching Touch:** Automatically smelts mined ores (e.g., raw iron drops directly as an iron ingot). 
+  * *Balance:* Strictly incompatible with the Fortune enchantment. The player must choose between the convenience of saving coal or the advantage of multiplying resources.
 
-Mapping Names:
-============
-The MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+### 🗡️ Melee Combat
+* **Heavy Blade:** Completely removes the knockback from your attacks. 
+  * *Mechanics:* Trades the safety of pushing enemies away for a massive potential to chain fast hits and maintain an aggressive close-quarters playstyle.
+* **Lifesteal:** Rewards continuous combat. The player recovers 20% of the inflicted damage as health on every successful hit. 
 
-MDG Legacy:
-==========
-This template uses [ModDevGradle Legacy](https://github.com/neoforged/ModDevGradle). Documentation can be found [here](https://github.com/neoforged/ModDevGradle/blob/main/LEGACY.md).
+### ☠️ Exclusive Loot (Treasures)
+These enchantments cannot be obtained at the Enchanting Table. They force the player to explore the world:
+* **Wither Aspect:** Applies prolonged lethal damage. Lasts exactly 2 seconds at Level 1, and 4 seconds at Level 2. 
+  * *Acquisition:* Has a 15% chance to appear exclusively in Nether Fortress chests.
+* **Venomous Aspect:** Applies poison to the target (non-lethal, but rapidly reduces health).
+  * *Acquisition:* Has a 15% chance to appear exclusively in Abandoned Mineshaft chests.
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+---
+
+## 🛠️ Technical Details for Modpacks
+* **Data-Driven:** Chest spawn rates and loot tables are managed via JSON files, allowing modpack creators to alter probabilities without needing to modify the source code.
+* **Compatibility:** Programmed using native game engine events, ensuring maximum compatibility with other weapon or armor modifications.
+
+---
+
+##  Community & Open Source
+This project is open-source. If you find any bugs, have mathematical ideas to tweak the balance of the enchantments, or simply want to review the code structure, let me know.
+
+
+##  ☕ Support the Project
+
+If you enjoy Essential Aspects and want to support its development, you can do so here:
+-Bitcoin (BTC): `bc1q8jj3y3nmr7d8pww86gr4y36xxg0vstgkjctew7`
