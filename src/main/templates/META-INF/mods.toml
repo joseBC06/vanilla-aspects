@@ -3,7 +3,6 @@ loaderVersion="${loader_version_range}"
 license="MIT License"
 
 [[mods]]
-# Aquí está la corrección principal
 modId="essential_aspects" 
 version="1.0.0" 
 displayName="Essential Aspects"
