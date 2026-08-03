@@ -1,0 +1,28 @@
+modLoader="javafml" 
+loaderVersion="${loader_version_range}" 
+license="MIT License"
+
+[[mods]]
+modId="essential_aspects" 
+version="1.0.0" 
+displayName="Essential Aspects"
+logoFile="logo.png" 
+authors="usearchbtw"
+description='''
+A Vanilla+ expansion introducing balanced combat and utility enchantments.
+'''
+
+
+[[dependencies.essential_aspects]] 
+    modId="forge"
+    mandatory=true 
+    versionRange="[46,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.essential_aspects]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
